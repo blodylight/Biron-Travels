@@ -1,0 +1,105 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Mulish&display=swap');
+
+.f4 {
+    background: rgba(19, 19, 24, 0.05);
+    width: 100%;
+    height: 502px;
+    flex-shrink: 0;
+    padding-bottom: 90px;
+}
+.f1,.f2 {
+    color: #FF5400;
+    font-family: Mulish;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.f1{
+    color:black;
+}
+.f3 {
+    display:flex;
+    align-items: center;
+    justify-content:center;
+    gap: 16px;
+    padding-top: 110px ;
+}
+.f3 img{
+    width: 40px;
+    height: 46.673px;
+    flex-shrink: 0;
+}
+.f5 {
+    width: 769px;
+    color: #5A5A5D;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    padding: 15px 335px 32px;
+}
+.f6 {
+    display:flex;
+    justify-content: center;
+    width: 174.322px;
+    height: 24px;
+    padding: 0px 633px;
+}
+.f7 {
+    display: flex;
+    justify-items: center;
+    background: rgba(19, 19, 24, 0.10);
+    width: 872px;
+    height: 1px;
+    margin: 50px 284px;
+}
+.f8 {
+    display: flex;
+    justify-content: center;
+    color: #131318;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+@media screen and (max-width:600px){
+    .f4 {
+    width: 100%;
+    height: 309px;
+    padding-bottom: 31.28px;
+}
+.f1,.f2 {
+    font-size: 21.543px;
+}
+.f3 {
+    gap:9.9px;
+    padding-top:33.2px;
+}
+.f3 img{
+    width: 28.724px;
+    height: 33.516px;
+    flex-shrink: 0;
+}
+.f5 {
+    width: 287px;
+    font-size: 14px;
+    line-height: 24px;
+    padding: 16px 156.5px;
+}
+.f6 {
+    width: 174.322px;
+    height: 24px;
+    padding: 0px 212.839px;
+}
+.f7 {
+    width: 335px;
+    height: 1px;
+    margin: 24px 132.5px;
+}
+}
