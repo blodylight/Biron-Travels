@@ -42,7 +42,7 @@
     width: 1170px;
     height: 500px;
     flex-shrink: 0;
-    margin: 0px 100px 100px 100px;
+    margin: 0px 135px 100px 135px;
     
 }
 .h2 {
@@ -73,6 +73,9 @@
 .h3{
     text-align: center;
     padding-bottom: 106px;
+}
+.h3>p{
+    margin: 0px 315px;
 }
 .h4 {
     border-radius: 8px;
@@ -161,10 +164,125 @@ line-height: normal;
 .blog {
     display: flex;
     justify-content: space-between;
-    margin: 0px 135px 100px 100px;
+    margin: 0px 135px 100px 135px;
 }
 
+/*--destination section*/
+.des1>h3 {
+    color: #131318;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.des1>p {
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 0px 465px;
+    margin-bottom: 50px;
+}
+/**/
+.i1 {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 135px;
+    margin-bottom: 24px;
+    gap: 24px;
+}
+.i2 {
+    display:flex;
+    justify-content: space-between;
+    margin: 0px 135px;
+    margin-bottom: 24px; 
+    gap: 24px;
+}
+.i3 {
+    display:flex;
+    justify-content: space-between;
+    margin: 0px 135px;
+    margin-bottom: 100px;
+    gap: 24px;
+} 
 
+/*--choose section*/
+.cos1>h3 {
+    color: #131318;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.cos1>p {
+    width: 643px;
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 0px 398px;
+    margin-bottom: 50px;
+}
+/**/
+.hotel,.service,.price {
+    width: 500px;
+    height: 284px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    padding: 32px 55px 32px 32px;
+}
+.hotel>img,.service>img,.price >img {
+    width: 64px;
+    height: 64px;
+    flex-shrink: 0;
+}
+.hotel>h5,.service>h5,.price >h5 {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.hotel>p,.service>p,.price >p {
+    width: 486px;
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+.service {
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+}
+.price {
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+}
+.box2 {
+    display: flex;
+    gap:24px;
+    margin: 0px 135px;
+    margin-bottom: 24px;
+}
+.price {
+    margin: 0px 433px;
+    margin-bottom: 100px;
+}
 
 /*--footer--*/
 
@@ -245,8 +363,9 @@ line-height: normal;
         display:flex;
         font-size: 21.543px;
     }
-    .n1 > ul {
-        display: none;
+    .n1 {
+        display: flex;
+        flex-direction: column;
     }
 }
 /*--header response*/
@@ -272,6 +391,9 @@ line-height: normal;
 .h3{
     text-align: center;
     padding-bottom: 0px;
+}
+.h3>p{
+    margin: 0px 0px;
 }
 .h4 {
     display: flex;
@@ -300,10 +422,10 @@ font-size: 20px;
 .b1 > ul,p {
 font-size: 14px;
 line-height: 24px;
-width: 335px;
+width: 280px;
 }
 .b1 > p {
-    width: 335px;
+    width: 330px;
 }
 .b3 img {
     width: 335px;
@@ -311,6 +433,71 @@ width: 335px;
     margin-top: 24px;
 }
 }
+
+/*--destination section*/
+@media screen and (max-width:600px){
+.des1>h3 {
+    text-align: center;
+    font-size: 20px;
+    width:300px;
+    margin: 0px 40px;
+    margin-bottom: 16px;
+}
+.des1>p {
+    margin: 0px 33px;
+    margin-bottom: 16px;
+    width: 309px;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.i1,.i2,.i3 {
+    display:flex;
+    flex-direction: column;
+    margin: 0px 20px;
+}
+.IMG img {
+    width: 335px;
+    height: 176px;
+    flex-shrink: 0;
+    margin-bottom: 16px;
+}
+}
+
+/*--choose section*/
+@media screen and (max-width:600px){
+.cos1>h3 {
+    text-align: center;
+    font-size: 20px;
+    width:300px;
+    margin: 0px 40px;
+    margin-bottom: 16px;
+}
+.cos1>p {
+    margin: 0px 33px;
+    margin-bottom: 16px;
+    width: 309px;
+    font-size: 14px;
+    line-height: 24px;
+}
+/**/
+.box2 {
+    display: flex;
+    flex-direction: column;
+}
+.hotel,.service,.price {
+    width: 335px;
+    height: 289px;
+    flex-shrink: 0;
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}    
+}
+
 
 /*--footer response--*/
 @media screen and (max-width:600px){
