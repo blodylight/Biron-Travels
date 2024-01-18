@@ -512,11 +512,11 @@ line-height: normal;
     justify-content: center;
     width: 174.322px;
     height: 24px;
-    padding: 0px 645px;
+    margin: auto;
 }
 .f7 {
     display: flex;
-    justify-items: center;
+    justify-content: center;
     background: rgba(19, 19, 24, 0.10);
     width: 872px;
     height: 1px;
@@ -525,6 +525,7 @@ line-height: normal;
 .f8 {
     display: flex;
     justify-content: center;
+    text-align: center;
     color: #131318;
     font-family: Inter;
     font-size: 16px;
@@ -533,20 +534,17 @@ line-height: normal;
     line-height: normal;
 }
 
-/*--navigation bar response*/
-@media screen and (max-width:600){
+.ops{
+    text-align: center;
+    margin:auto;
+    margin-bottom: 50px;
+}
 
-    .f1,.f2 {
-        font-size: 21.543px;
-    }
-    .n2 h3 {
-        display:flex;
-        font-size: 21.543px;
-    }
-    .n1 {
-        display: flex;
-        flex-direction: column;
-    }
+/*--navigation bar response*/
+@media screen and (max-width:600px){
+.n1>ul{
+    display: none;
+}
 }
 /*--header response*/
 @media screen and (max-width:600px){
@@ -794,9 +792,10 @@ font-size: 20px;
 /*--footer response--*/
 @media screen and (max-width:600px){
 .f4 {
-    width: 100%;
+    width: 270px;
     height: 309px;
-    padding-bottom: 31.28px;
+    padding:auto;
+    padding-right: 100px;
 }
 .f1,.f2 {
     font-size: 21.543px;
@@ -811,12 +810,14 @@ font-size: 20px;
     flex-shrink: 0;
 }
 .f5 {
+    text-align: center;
     width: 287px;
     font-size: 14px;
     line-height: 24px;
-    padding: 16px 156.5px;
+    margin-left: 2px;
 }
 .f6 {
+    align-content: center;
     width: 174.322px;
     height: 24px;
     padding: 0px 212.839px;
@@ -825,5 +826,9 @@ font-size: 20px;
     width: 335px;
     height: 1px;
     margin: 24px 132.5px;
+}
+.ops {
+    margin: auto;
+    margin-bottom: 20px;
 }
 }
