@@ -428,6 +428,7 @@ line-height: normal;
     margin: 0px 100px;
     margin-bottom: 100px;
 }
+
 .news6 {
     width: 324px;
     height: 120px;
@@ -552,7 +553,7 @@ line-height: normal;
 .h1 {
     width: 335px;
     height: 483px;
-    margin-left: 10px ;
+    margin-left: 20px ;
 }
 .h2 {
     width: 335px;
@@ -725,6 +726,68 @@ font-size: 20px;
     margin-right: 500px;
     
 }
+}
+
+/*--news letter section--*/
+@media  screen and (max-width: 600px) {
+.news {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+.news1 {
+    width: 310px;
+    height: 353px;
+    padding: 0px 10px;
+    margin: 0px 20px;
+    margin-bottom: 16px;
+}
+.news2 h3 {
+font-size: 20px;
+}
+.news2 p {
+    width: 270px;
+    font-size: 14px;
+    line-height: 24px;
+}
+.news2 hr {
+    width: 288px;
+}
+.news4 input{
+    width: 288px;
+}
+.news4 button {
+    height: 52px;
+    width: 310px;
+}
+
+/**/
+.news5 img{
+    width: 335px;
+    height: 300px;
+    margin:auto;
+    margin-left: 20px;
+}
+
+.news6 {
+    width: 214.023px;
+    height: 79.268px;
+}
+.news6 p {
+    font-size: 15.854px;
+    margin: 0px 40px;
+}
+.news6 h3 {
+    font-size: 32px;
+    margin: 0px 29px;
+    font-size: 21.138px;
+}
+.news6 {
+    position: relative;
+    bottom: 124px;
+    left: 136px;
+}
+    
 }
 
 /*--footer response--*/
